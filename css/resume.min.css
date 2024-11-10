@@ -25,9 +25,11 @@ h6 {
   text-transform: uppercase;
   color: white; }
 
-h1 {
+
+
+/*h1 {
   font-size: 6rem;
-  line-height: 5.5rem; }
+  line-height: 5.5rem; }*/
 
 h2 {
   font-size: 3.5rem; }
@@ -114,3 +116,28 @@ a {
   color: #39ace7;}
   a:hover, a:focus, a:active {
     color: #2a3d4e; }
+
+
+/* new style*/
+#about {
+  background-color: #f0f0f0; /* You can change this to any color */
+  background-image: url('../img/h1minecraft.png'); /* Optional: add a background image */
+  background-size: cover; /* This makes the background image cover the section */
+  color: #ffffff; /* Change the text color for contrast */
+  padding: 40px; /* Add some padding */
+}
+
+#about h1 {
+  font-family: 'Press Start 2P', cursive; /* Set the font to Minecraft style */
+  color: #0f0b0b; /* Desired text color */
+  margin-top: 0; /* Remove any default margin at the top */
+  padding-top: 20px; /* Adjust the padding to control the spacing from the top */
+}
+
+#about h2 {
+  font-family: 'Press Start 2P', cursive; /* Set the font to Minecraft style */
+  color: #0f0b0b; /* Desired text color */
+  margin-top: 0; /* Remove any default margin at the top */
+  padding-top: 20px; /* Adjust the padding to control the spacing from the top */
+}
+
